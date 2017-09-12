@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  playername: Mike Trout
+  playernumber: 27
+  homeruns: 15
+  rbis: 35
+  battingave: 315
+  rookie: false
+
+two:
+  playername: Cody Bellinger
+  playernumber: 35
+  homeruns: 12
+  rbis: 31
+  battingave: 252
+  rookie: true
+
+three:
+  playername: Justin Turner
+  playernumber: 27
+  homeruns: 1
+  rbis: 17
+  battingave: 373
+  rookie: false
+
+two:
+  playername: Albert Pujols
+  playernumber: 5
+  homeruns: 9
+  rbis: 42
+  battingave: 249
+  rookie: false

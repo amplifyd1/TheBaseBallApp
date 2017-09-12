@@ -1,0 +1,28 @@
+
+<h1>Listing players</h1>
+<table>
+<tr>
+<th>Playername</th>
+<th>Playernumber</th>
+<th>Homeruns</th>
+<th>RBIs</th>
+<th>Battingave</th>
+<th>Rookie</th>
+<th></th>
+<th></th>
+</tr>
+
+<% @players.each do |player| %>
+<tr>
+  <td><%= player.playername %></td>
+  <td><%= player.playernumber %></td>
+  <td><%= player.homeruns %></td>
+  <td><%= player.rbis %></td>
+  <td><%= player.battingave %></td>
+  <td><%= player.rookie %></td>
+  <td><%= link_to 'Show', player %></td>
+  <td><%= link_to 'Edit', edit_player_path(player) %></td>
+  <td><%= link_to 'Destroy', player , :confirm => 'Are you sure?', :method => :delete %></td>
+</tr>
+<% end %>
+</table>
